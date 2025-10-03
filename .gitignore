@@ -1,1 +1,6 @@
+*password*
+*.key
+*.pem
+*.env
+secrets/
 Password_wine.txt
