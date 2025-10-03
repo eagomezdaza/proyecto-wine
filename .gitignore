@@ -1,3 +1,56 @@
+# === Archivos de Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+
+# === Entornos virtuales ===
+.venv/
+env/
+venv/
+ENV/
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+.notebooks/
+profile_default/
+ipython_config.py
+
+# === Datos temporales y logs ===
+*.log
+*.out
+*.tmp
+*.swp
+*.bak
+
+# === Archivos de sistema ===
+.DS_Store
+Thumbs.db
+
+# === Modelos y resultados ===
+model/*.joblib
+model/*.json
+*.h5
+*.pkl
+
+# === Configuración sensible ===
+*password*
+*.key
+*.pem
+*.env
+secrets/
+
+# === IDEs ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === Otros archivos comunes ===
+dist/
+build/
+*.egg-info/
 *password*
 *.key
 *.pem
