@@ -1,8 +1,28 @@
-# Proyecto Wine — Clasificación (Mod11 · Act2)
+# 🍷 Proyecto Wine — Clasificación (Mod11 · Act2)
 
-Este proyecto entrena y evalúa modelos de **clasificación** sobre el dataset *Wine* (Scikit‑learn), comparando **Logistic Regression**, **Random Forest** y **SVM**. Incluye **búsqueda de hiperparámetros** con `RandomizedSearchCV`, validación cruzada estratificada, métricas (accuracy, matriz de confusión, ROC por clase) y **persistencia de artefactos** (`joblib`, JSON).
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Estructura sugerida del repo
+Este proyecto entrena y evalúa modelos de **clasificación multiclase** sobre el dataset *Wine* de Scikit-learn, utilizando Logistic Regression, Random Forest y SVM.  
+Incluye búsqueda de hiperparámetros, validación cruzada y persistencia de artefactos.
+
+---
+
+## 🚀 Características principales
+
+| Componente                | Descripción                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|
+| Dataset                   | Wine (Scikit-learn)                                                         |
+| Modelos                   | Logistic Regression, Random Forest, SVM                                     |
+| Optimización              | RandomizedSearchCV con StratifiedKFold                                      |
+| Métricas                  | Accuracy, Matriz de Confusión, Curvas ROC por clase                         |
+| Persistencia              | Modelos `.joblib` y parámetros `.json` en carpeta `model/`                  |
+| Entorno                   | Python 3.10+, dependencias en `requirements.txt`                            |
+
+---
+
+## 📂 Estructura del repositorio
 ```
 proyecto-wine/
 ├─ notebooks/
