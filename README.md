@@ -41,9 +41,11 @@ proyecto-wine/
 ## 📊 Resultados
 
 Matriz de confusión:
+
 ![Matriz de confusión](assets/confusion_matrix.png)
 
 Matriz de correlación:
+
 ![Matriz de correlación](assets/correlation_matrix.png)
 
 
