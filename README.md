@@ -38,6 +38,13 @@ proyecto-wine/
 
 > **Nota**: El notebook generado aquí ya incluye los parches clave: `penalty='none'` en LogisticRegression, `error_score=np.nan` en `RandomizedSearchCV`, y la importación de `display`.
 
+## ▶️ Ejecutar en Google Colab
+
+Puedes abrir y ejecutar este proyecto directamente en Google Colab haciendo clic en el botón:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eagomezdaza/proyecto-wine/blob/main/notebooks/proyecto_wine_act2_mod11_v2.ipynb)
+
+
 ## 📊 Resultados
 
 Matriz de confusión:
