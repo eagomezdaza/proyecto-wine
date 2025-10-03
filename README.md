@@ -38,6 +38,16 @@ proyecto-wine/
 
 > **Nota**: El notebook generado aquí ya incluye los parches clave: `penalty='none'` en LogisticRegression, `error_score=np.nan` en `RandomizedSearchCV`, y la importación de `display`.
 
+## 📊 Resultados
+
+Matriz de confusión:
+![Matriz de confusión](assets/confusion_matrix.png)
+
+Matriz de correlación:
+![Matriz de correlación](assets/correlation_matrix.png)
+
+
+
 ## Requisitos y entorno
 
 - Python 3.10+ recomendado
