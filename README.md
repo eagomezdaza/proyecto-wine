@@ -27,9 +27,10 @@ Incluye búsqueda de hiperparámetros, validación cruzada y persistencia de art
 proyecto-wine/
 ├─ notebooks/
 │  └─ proyecto_wine_act2_mod11_v2.ipynb
-├─ src/                       # (opcional si extraes funciones)
-├─ model/                     # salidas: modelos y metadatos
-├─ data/                      # (opcional) datos externos si aplica
+├─ assets/
+├─ src/                       
+├─ model/                     
+├─ data/                      
 ├─ README.md
 ├─ requirements.txt
 ├─ .gitignore
