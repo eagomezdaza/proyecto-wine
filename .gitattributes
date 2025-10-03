@@ -1,0 +1,27 @@
+# === Normalización de fin de línea ===
+* text=auto eol=lf
+
+# === Forzar codificación UTF-8 ===
+*.py text working-tree-encoding=UTF-8
+*.ipynb text working-tree-encoding=UTF-8
+
+# === Jupyter Notebooks: tratarlos como binarios para evitar diffs ruidosos ===
+*.ipynb binary
+
+# === Archivos de datos ===
+*.csv text
+*.json text
+*.yml text
+*.yaml text
+
+# === Archivos binarios ===
+*.joblib binary
+*.pkl binary
+*.h5 binary
+
+# === Archivos de imágenes ===
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text
